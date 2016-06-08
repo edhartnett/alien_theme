@@ -37,7 +37,7 @@ Icons in the icon directory have the same name as the
 
 ## Contents of /etc/default/grub
 
-<code>
+<pre>
 GRUB_TIMEOUT=57
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
@@ -47,7 +47,7 @@ GRUB_FONT=/boot/grub2/fonts/unicode.pf2
 GRUB_GFXMODE=1280x800
 GRUB_GFXPAYLOAD_LINUX=keep
 GRUB_INIT_TUNE="480 440 4 440 4 440 4 349 3 523 1 440 4 349 3 523 1 440 8 659 4 659 4 659 4 698 3 523 1 415 4 349 3 523 1 440 8"
-</code>
+</pre>
 
 ## Results
 
