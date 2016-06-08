@@ -10,25 +10,25 @@ invasion of Earth by another species.
 # Help for Mere Earthlings
 
 A good guide can be found here:
-<code>
+<pre>
 http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial
-</code>
+</pre>
 
 ## Making Fonts
 
 For grub2, convert a ttf (or some other allowed font files) like this:
 
-<code>
+<pre>
 grub2-mkfont tokyodrifterstaightexpand.ttf -v --bold --size 24 --range=0x0-0x7f  -o /boot/grub2/themes/alien_theme/alien_big.pf2
-</code>
+</pre>
 
 ## Regenerating GRUB2 Config File
 
 Some theme changes require the regeneration of the GRUB2 config file.
 
-<code>
+<pre>
 grub2-mkconfig -o /boot/grub2/grub.cfg
-</code>
+</pre>
 
 ## Icons
 
