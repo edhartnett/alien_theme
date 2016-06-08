@@ -2,10 +2,9 @@
 
 This is a theme for GRUB2.
 
-# Fun?
+# Final Results
 
-This is not about fun! This is about preparing for the eventual
-invasion of Earth by another species.
+![Alt text](screenshot.png?raw=true "Screenshot")
 
 # Help for Mere Earthlings
 
@@ -49,6 +48,8 @@ GRUB_GFXPAYLOAD_LINUX=keep
 GRUB_INIT_TUNE="480 440 4 440 4 440 4 349 3 523 1 440 4 349 3 523 1 440 8 659 4 659 4 659 4 698 3 523 1 415 4 349 3 523 1 440 8"
 </pre>
 
-## Results
+# Fun?
 
-![Alt text](screenshot.png?raw=true "Screenshot")
+This is not about fun! This is about preparing for the eventual
+invasion of Earth by another species.
+
