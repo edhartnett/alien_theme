@@ -37,6 +37,7 @@ Icons in the icon directory have the same name as the
 
 ## Contents of /etc/default/grub
 
+<code>
 GRUB_TIMEOUT=57
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT=saved
@@ -50,6 +51,7 @@ GRUB_GFXMODE=1280x800
 GRUB_GFXPAYLOAD_LINUX=keep
 #GRUB_BACKGROUND=/usr/share/backgrounds/f23/default/normalish/f23.jpg
 GRUB_INIT_TUNE="480 440 4 440 4 440 4 349 3 523 1 440 4 349 3 523 1 440 8 659 4 659 4 659 4 698 3 523 1 415 4 349 3 523 1 440 8"
+</code>
 
 ## Results
 
